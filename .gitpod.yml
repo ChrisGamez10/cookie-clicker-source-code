@@ -1,0 +1,11 @@
+# https://www.gitpod.io/docs/config-start-tasks/
+# start hotlink server for playing game while coding 
+tasks:
+  - init: npm install browser-sync
+    command: npx browser-sync start -s -w
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+# 3000 is for the game, 3001 for bowser-sync configuration
+ports:
+  - port: 3000-3001
+    onOpen: open-browser
