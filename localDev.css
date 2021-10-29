@@ -1,0 +1,8 @@
+#topBar,
+.ifNoAds,
+#smallSupport,
+#detectAds,
+#support,
+.cc_banner-wrapper {
+    display:none;
+}
